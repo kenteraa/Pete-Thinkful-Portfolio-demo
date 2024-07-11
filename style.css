@@ -1,0 +1,106 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to do this, but it is good practice. Also, the margins (on line 3) are considered good practice as well. Check out the boxes to see what these elements do. */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Headings */
+h2,
+h3 {
+  font-siize: 24px;
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+ 
+   
+   
+  /* Header */ 
+header {
+  text-align: center;
+}
+/* Nav */
+
+nav {
+  display: flex;
+   justify-content: center;
+  align-items: center;
+}
+
+
+nav a {
+  dispay: flex;
+  padding: 0;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #d62828;           
+  font-family: "Playfair Display", Times, serif; 
+  transition: color 0.3s ease;
+
+}
+
+nav a:hover {
+  color: #f77f00;
+}
+
+/* Main */
+
+
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+}
+
+/* Links */
+
+a:link {
+  color: #d62828;
+}
+
+a:active {
+  color: #d62828;
+}
+
+  
+ 
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
